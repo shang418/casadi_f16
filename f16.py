@@ -773,7 +773,7 @@ def simulate(x0: State, f_control, p: Parameters, t0: float, tf:float, dt: float
     @param f_control: A function of the form f(t, x), which returns the control u
     @param p: Aircraft parameters
     @param t0: initial time
-    @param tf: fintal time
+    @param tf: final time
     @param dt: The discrete sampling time of the controller.
     """
     xs = ca.MX.sym('x', 16)
